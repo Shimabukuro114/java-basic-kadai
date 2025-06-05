@@ -8,7 +8,7 @@ public class CarExec_Chapter15 {
 		// インスタンス化
 		Car_Chapter15 gear = new Car_Chapter15();
 		
-		gear.gearChange(5);
+		gear.gearChange(3);
 		gear.run();
 	}
 

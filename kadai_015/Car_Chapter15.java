@@ -8,6 +8,8 @@ public class Car_Chapter15 {
 	public void gearChange (int afterGear) {
 		System.out.println("ギア" + this.gear + "から" + afterGear + "に切り替えました");
 		
+		this.gear = afterGear;
+		
 		switch(afterGear) {
 		case 1 -> this.speed = 10;
 		case 2 -> this.speed = 20;
@@ -19,13 +21,6 @@ public class Car_Chapter15 {
 	}
 	
 	public void run() {
-		switch(this.gear) {
-		case 1 -> System.out.println("時速は" + this.speed + "kmです");
-		case 2 -> System.out.println("時速は" + this.speed + "kmです");
-		case 3 -> System.out.println("時速は" + this.speed + "kmです");
-		case 4 -> System.out.println("時速は" + this.speed + "kmです");
-		case 5 -> System.out.println("時速は" + this.speed + "kmです");
-		default -> System.out.println("時速は" + this.speed + "kmです");
-		}
+		 System.out.println("時速は" + this.speed + "kmです");
 	}
 }
