@@ -6,16 +6,16 @@ public class KatoExec_Chapter18 {
 		// TODO 自動生成されたメソッド・スタブ
 
 		KatoTaro_Chapter18 taro = new KatoTaro_Chapter18();
-		taro.setGivenName();
-		taro.eachIntroduce();
+		taro.setGivenName("太郎");
+		taro.execIntroduce();
 		
 		KatoIchiro_Chapter18 ichiro = new KatoIchiro_Chapter18();
-		ichiro.setGivenName();
-		ichiro.eachIntroduce();
+		ichiro.setGivenName("一郎");
+		ichiro.execIntroduce();
 		
 		KatoHanako_Chapter18 hanako = new KatoHanako_Chapter18();
-		hanako.setGivenName();
-		hanako.eachIntroduce();
+		hanako.setGivenName("花子");
+		hanako.execIntroduce();
 		
 		
 	}
